@@ -17,7 +17,7 @@ data:
   PRINT_METRIC_INGEST_INPUT: "false"
   # if true function requires valid SSL certificates when communicating with Dynatrace cluster
   # may be used to bypass SSL certificates errors when traffic is proxied through Active Gate with self-signed certificate
-  REQUIRE_VALID_CERTIFICATE: "true"
+  REQUIRE_VALID_CERTIFICATE: "false"
   # Determines a caller-specified project for quota and billing purposes 
   # if set to source: monitoring API calls are booked towards project where K8S container is running
   # if set to destination: monitoring API calls are booked towards project which is monitored
